@@ -1,2 +1,1 @@
-# random-notes
-Random notes related to privacy/security.
+# Random notes related to privacy/security.
