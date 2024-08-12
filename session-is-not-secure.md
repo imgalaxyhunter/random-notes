@@ -1,5 +1,3 @@
 ## [Session](https://getsession.org/) is often touted as a secure messaging app. Here are some things you may want to consider before using it.
 
 In December 2020, Session transitioned from the [Signal Protocol](https://en.wikipedia.org/wiki/Signal_Protocol) to what they are calling the [Session Protocol](https://www.getsession.org/blog/session-protocol-technical-information), which loses many importantant security properties of the Signal protocol, such as [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which is considered an important property by [security experts](https://x.com/GrapheneOS/status/1462205937771589638).
-
-Along with that, [they fail to protect the recovery phrase](https://matrix.arcticfoxes.net/_matrix/media/v3/download/arcticfoxes.net/oaDuhyAQITmIJjFSvXGluuvx?allow_redirect=true), which is accessible two taps away in the app and not protected with a PIN or biometrics. This allows an attacker to permanently take over a Session account, giving them access to recent and all future messages, without the victim being notified.
